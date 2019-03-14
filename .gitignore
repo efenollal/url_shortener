@@ -9,3 +9,14 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+.env.*.php
+.env.php
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
