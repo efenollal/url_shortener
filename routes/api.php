@@ -16,3 +16,17 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+// Route::post('url', function (Request $request) {
+//     $url = Url::create(
+//         [
+//             request()->validate(
+//                 [
+//                     'url' => ['required', 'url']
+//                 ]
+//             ),
+//             'shortened_url' => str_random(6)
+//         ]
+//     );
+
+//     return $url;
+// });
